@@ -12,7 +12,7 @@ public class Main {
 		try {
 			AppGameContainer appgc;
 			appgc = new AppGameContainer(new Game());
-			appgc.setDisplayMode(640, 480, false);
+			appgc.setDisplayMode(1280, 720, false);
 			appgc.start();
 		} catch (SlickException e) {
 			e.printStackTrace();
